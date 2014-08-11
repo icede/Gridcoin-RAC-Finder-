@@ -1,11 +1,11 @@
 Gridcoin-RAC-Finder-
 ====================
 
-prerequisites:
+Prerequisites:
 
-Gridcoin wallet with the latest block height. 
+- Gridcoin wallet with the latest block height. 
 
-Mysql database with the following database + table: 
+- Mysql database with the following database + table: 
 database called 'gabe' 
 Tables as follows: ProjectName char(20), RAC int(10), CPID char(32), Height int(9)
 
