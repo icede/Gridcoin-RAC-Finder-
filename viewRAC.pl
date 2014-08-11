@@ -3,8 +3,8 @@
 use DBI;
 use warnings; 
 
-$user = "root"; 
-$pass = "Password"; 
+$user = "root"; #sql user
+$pass = "Password"; #sql password
 
 $BH = DBI->connect("dbi:mysql:gabe", $user, $pass) or die DBI->errstr;
 
